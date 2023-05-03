@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+//Square({ value, onSquareClick })この部分は分割代入で値入れている。どの値かはhandleClick関数の部分
 function Square({ value, onSquareClick }) {
   return (
     <button className="square" onClick={onSquareClick}>
