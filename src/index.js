@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client'; //webブラウザーと対話するために必要
 import './index.css';
-import Borad from './App';
-
+import Game from './board_game';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Borad />
+    <Game />
   </React.StrictMode>
 );
 

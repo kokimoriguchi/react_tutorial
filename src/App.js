@@ -1,4 +1,4 @@
-import { useState } from "react";
+/*import { useState } from "react";
 //Square({ value, onSquareClick })この部分は分割代入で値入れている。どの値かはhandleClick関数の部分
 function Square({ value, onSquareClick }) {
   return (
@@ -8,7 +8,7 @@ function Square({ value, onSquareClick }) {
   );
 }
 
-export default function Borad(){
+export default function (){
   const [xIsNext, setXIsNext] = useState(true);
   const [squares, setSquares] = useState(Array(9).fill(null));
 
@@ -75,3 +75,4 @@ function calculateWinner(squares) {
   }
   return null;
 }
+*/
