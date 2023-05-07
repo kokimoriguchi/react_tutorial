@@ -14,14 +14,12 @@ body {
   padding: 0;
   text-align: center;
   width: 34px;
-}
-
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
+  word-wrap: break-word;
 }
 
 .board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
 }
